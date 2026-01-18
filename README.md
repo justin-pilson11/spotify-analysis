@@ -8,3 +8,15 @@ To do this, we first need to understand what user value consists of. It is not j
     <li>How long they stay active on our platform</li>
 </ul>
 
+The data consists of the following tables:
+<ul>
+    <li>users
+        <ul>
+            <li>user_id</li>
+            <li>signup_date</li>
+            <li>acquisition_channel</li>
+            <li>country</li>
+            <li>device_type</li>
+        </ul>
+    </li>
+    
