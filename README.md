@@ -10,7 +10,7 @@ To do this, we first need to understand what user value consists of. It is not j
 
 The data consists of the following tables:
 <ul>
-    <li>users
+    <li><strong>Users</strong>
         <ul>
             <li>user_id</li>
             <li>signup_date</li>
@@ -19,4 +19,35 @@ The data consists of the following tables:
             <li>device_type</li>
         </ul>
     </li>
-    
+    <li><strong>DailyListeningActivity</strong>
+        <ul>
+            <li>user_id</li>
+            <li>date</li>
+            <li>sessions</li>
+            <li>minutes_listened</li>
+            <li>songs_streamed</li>
+            <li>playlists_created</li>
+        </ul>
+    </li>
+    <li><strong>Subscriptions</strong>
+        <ul>
+            <li>user_id</li>
+            <li>date</li>
+            <li>is_premium</li>
+            <li>revenue</li>
+        </ul>
+    </li>
+    <li><strong>FeatureExposure</strong>
+        <ul>
+            <li>user_id</li>
+            <li>exposed</li>
+            <li>exposed_date</li>
+        </ul>
+    </li>
+    <li><strong>Churn</strong>
+        <ul>
+            <li>user_id</li>
+            <li>churned_30d</li>
+        </ul>
+    </li>
+</ul>
