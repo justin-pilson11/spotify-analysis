@@ -1,4 +1,4 @@
-user_id,date,is_premium,revenue
+user_id,date_purchased,is_premium,revenue
 user_4,2025-11-23,1,9.99
 user_20,2025-12-16,1,9.99
 user_39,2025-12-26,1,9.99
