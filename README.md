@@ -51,3 +51,5 @@ The data consists of the following tables:
         </ul>
     </li>
 </ul>
+
+My analysis will consist of analyzing the data of users not exposed to the new premium feature to establish a baseline. Then, I will compare the treatment and control groups to determine if there is a noticeable difference in user activity.
